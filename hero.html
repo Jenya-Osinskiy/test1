@@ -23,13 +23,20 @@
                 Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable baskets delivered
                 to you.</p>
         </div>
-        <div class="hero-box-img">
-            <img srcset="./images/people-office-mob-2x.webp 2x, ./images/people-office-mob.webp 1x"
-                src="./images/people-office-mob.webp" alt="people office imeges" class="section-mob-bg" loading="eager">
-            <img srcset="./images/people-office-tab-2x.jpg 2x, ./images/people-office-tab.jpg 1x"
-                src="./images/people-office-tab.jpg" alt="people office imeges" class="section-tab-bg" loading="lazy">
-            <img srcset="./images/people-office-2x.jpg 2x, ./images/people-office.jpg 1x"
-                src="./images/people-office.jpg" alt="people office imeges" class="section-des-bg" loading="lazy">
+        <div class="hero-box-back">
+            <!-- <img srcset="./img/hero-mob-2x.webp 2x, ./img/hero-mob-1x.webp 1x" src="./img/hero-mob-1x.webp" alt="images"
+                class="hero-mob-img" loading="lazy">
+            <img srcset="./img/hero-tab-2x.webp 2x, ./img/hero-tab-1x.webp 1x" src="./img/hero-tab-1x.webp" alt="images"
+                class="hero-tab-img" loading="lazy">
+            <img srcset="./img/hero-des-2x.webp 2x, ./img/hero-des-1x.webp 1x" src="./img/hero-des-1x.webp" alt="images"
+                class="hero-des-img" loading="lazy"> -->
+            <picture>
+                <source srcset="./img/hero-des-2x.webp 2x 2x, ./img/hero-des-1x.webp 1x" media="(min-width: 1280px)">
+                <source srcset="./img/hero-tab-2x.webp 2x, ./img/hero-tab-1x.webp 1x" media="(min-width: 768px)">
+                <source srcset="./img/hero-mob-2x.webp 2x, ./img/hero-mob-1x.webp  1x" media="(min-width: 375px)">
+                <img src="./img/hero-mob-1x.webp" class="hero-mob-img" alt="Taxi Service" loading="lazy">
+            </picture>
+
         </div>
 
     </section>

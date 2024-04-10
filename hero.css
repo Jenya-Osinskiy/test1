@@ -42,36 +42,94 @@ button {
 margin: 0 auto;
 }
 .hero {
-    
-    min-width: 320px;
-    
-    
+    min-width: 320px;      
 }
+
 .hero-box-subject {
     padding: 100px 20px 40px 20px;
     background: #576f35;
 }
 .box-title {
     
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 1;
-        letter-spacing: -0.01em;
-        text-transform: uppercase;
-        color: #fbfbfb;
-        margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-bottom: 20px;
 }
 .box-text {
     
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.28571;
-        color: #fbfbfb;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #fbfbfb;
 }
+
+.hero-box-back {
+   
+}
+
+.hero-mob-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 
 @media screen and (min-width: 375px) {
 .container {
     width: 375px;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+.container {
+    width: 768px;
     }
+
+.hero-box-subject {
+    padding: 122px 32px 50px 32px; 
+}
+
+.box-title {
+    font-size: 76px;
+    margin-bottom: 25px;
+}
+
+.box-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 603px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.container {
+    width: 1280px;
+    }
+.hero {
+    display: flex;
+}
+.hero-box-subject {
+    padding: 238px 28px 50px 100px;
+}
+
+.box-title {
+    font-size: 76px;
+    margin-bottom: 128px;
+    width: 502px;
+}
+
+.box-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 472px;
+    opacity: 0.5;
+}
 
 }
