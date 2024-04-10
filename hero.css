@@ -42,7 +42,7 @@ button {
     margin: 0 auto;
 }
 .hero {
-    min-width: 320px;      
+    min-width: 320px;
 }
 
 .hero-box-subject {
@@ -70,6 +70,7 @@ button {
     background-position: center;
     background-size: cover;
     background-image:  linear-gradient(to bottom, rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),url('./img/hero-mob-1x.webp');
+    max-width: 100%;
     min-height: 370px;
 }
 
@@ -106,13 +107,13 @@ button {
 
 @media screen and (min-width: 375px) {
 .container {
-    width: 375px;
+    max-width: 375px;
 }
 }
 
 @media screen and (min-width: 768px) {
 .container {
-    width: 768px;
+    max-width: 768px;
     }
 
 .hero-box-subject {
@@ -122,6 +123,7 @@ button {
 .box-title {
     font-size: 76px;
     margin-bottom: 25px;
+    
 }
 
 .box-text {
@@ -144,7 +146,7 @@ button {
 
 @media screen and (min-width: 1280px) {
 .container {
-    width: 1280px;
+    max-width: 1280px;
     }
 .hero {
     display: flex;
