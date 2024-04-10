@@ -72,24 +72,24 @@ margin: 0 auto;
 }
 
 .hero-mob-img {
-    width: 100%;
-    height: 100%;
+    
     object-fit: cover;
     object-position: center;
+    aspect-ratio: 1/1;
 }
 
 
 
 @media screen and (min-width: 375px) {
 .container {
-    width: 375px;
+    max-width: 375px;
 }
 
 }
 
 @media screen and (min-width: 768px) {
 .container {
-    width: 768px;
+    max-width: 768px;
     }
 
 .hero-box-subject {
@@ -110,7 +110,7 @@ margin: 0 auto;
 
 @media screen and (min-width: 1280px) {
 .container {
-    width: 1280px;
+    max-width: 1280px;
     }
 .hero {
     display: flex;
