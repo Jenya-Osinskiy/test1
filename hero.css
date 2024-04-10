@@ -70,7 +70,7 @@ margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image:  linear-gradient(to bottom, rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),url('../img/hero-mob-1x.webp');
+    background-image:  linear-gradient(to bottom, rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),url('./img/hero-mob-1x.webp');
     min-height: 370px;
 }
 
@@ -132,7 +132,7 @@ margin: 0 auto;
     width: 603px;
 }
 .hero-box-back {
-    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('../img/hero-tab-1x.webp');
+    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('./img/hero-tab-1x.webp');
     min-height: 539px;
 }
 
@@ -162,7 +162,7 @@ margin: 0 auto;
     opacity: 0.5;
 }
 .hero-box-back {
-    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('../img/hero-des-1x.webp');
+    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('./img/hero-des-1x.webp');
     width: 650px;
     
 }
